@@ -36,3 +36,4 @@ jobs:
           docker login --username tlion1069 --password ${{secrets.ACCESS_TOKEN}} ghcr.io
           docker build -t ghcr.io/tlion1069/lab6:latest --file Dockerfile .  
           docker push ghcr.io/tlion1069/lab6:latest
+          
